@@ -10,7 +10,7 @@ Releasing to private GitHub packages is super simple with the new `npmRegistryUr
 * Change the `jsiiFqn` value in `.projenrc.js
   * If you plan to only have on project type use `jsiiFqn: 'package-name.ProjectType'`
   * If you plan to have multiple types you can remove the value and let it detect automatically at install time
-* Set npm dist tag and npm registry in `.projecrc.js`
+* Set npm dist tag and npm registry in `.projenrc.js`
   * `npmDistTag: 'latest'`
   * `npmRegistryUrl: 'https://npm.pkg.github.com'`
 * Generate personal access token for the repository
