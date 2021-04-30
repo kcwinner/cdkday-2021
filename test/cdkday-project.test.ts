@@ -1,6 +1,7 @@
 import { CdkDayProject } from '../src';
 
 test('CDK Day Project', () => {
+  // Show the forced 1.95.2
   const project = new CdkDayProject({
     name: 'test',
     cdkVersion: '1.100.0',
