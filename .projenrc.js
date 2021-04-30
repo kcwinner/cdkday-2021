@@ -16,7 +16,7 @@ const project = new JsiiProject({
   dependabot: false, // Disabling because it is a demo project
   mergify: false, // Disabling because it is a demo project
 
-  npmDistTag: 'latest', /* Tags can be used to provide an alias instead of version numbers. */
+  npmDistTag: 'latest',
   npmRegistryUrl: 'https://npm.pkg.github.com',
 });
 
