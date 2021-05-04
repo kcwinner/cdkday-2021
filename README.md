@@ -33,9 +33,15 @@ Releasing to private GitHub packages is super simple with the new `npmRegistryUr
   * `npm view @yourorg/package-name`
 * `npx projen new --from @yourorg/package-name`
 
-# GITHUB_TOKEN
+## GITHUB_TOKEN
 
 I'm working to get this to run using the `${{ secrets.GITHUB_TOKEN }}` for the repository. This will reduce the need for configuring a personal access token to push to GitHub packages.
+
+## Other Sources / Content / Social
+
+* [My Blog](https://kennethwinner.com/posts)
+* [Full YouTube Walkthrough](https://youtu.be/Heq17s8FOfM)
+* [Twitter](https://twitter.com/KenWin0x539)
 
 ## References
 
